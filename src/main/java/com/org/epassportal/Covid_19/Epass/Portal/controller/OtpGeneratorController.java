@@ -20,8 +20,8 @@ import com.twilio.type.PhoneNumber;
 public class OtpGeneratorController {
 	
 	private Map<String,OTPSystem> otp_data = new HashMap<>();
-	private final static String ACCOUNT_SID = "AC83a4c97db166b1864ea7a25e233f7f80";
-	private final static String AUTH_ID = "f53b9c9a2824011d602c23600c398dfa";
+	private final static String ACCOUNT_SID = "";
+	private final static String AUTH_ID = "";
 	
 	static {
 		Twilio.init(ACCOUNT_SID,AUTH_ID);
