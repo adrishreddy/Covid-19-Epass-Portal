@@ -21,13 +21,13 @@
     </nav>
 
     <h1 style="text-align: center;">Select the type of Online Registration Pass</h1>
-    <br>
+    <br><br>
     <div class="container">
         
         <div class="row">
             <div class="col-lg-5">
                 <form action="/otpverifythree">
-                    <button type="submit" id="b1" class="btn btn-outline-info btn-lg" style="border-radius: 50%;"><h4>Telangana <br>to<br>Other states</h4></button>
+                    <button type="submit" class="example_e" style="border-radius: 5%;"><h4 id = "t">Telangana <br>to<br>Other states</h4></button>
                 </form>
             </div>
             <div class="col-lg-2">
@@ -36,7 +36,7 @@
             <div class="col-lg-5">
                 <form action="/otpverifyfour">
                     
-                    <button type="submit" id="b2" class="btn btn-outline-info btn-lg" style="border-radius: 50%;"><h4>Other states <br>to<br> Telangana</h4></button>
+                    <button type="submit" class="example_e" style="border-radius: 5%;"><h4 id="t">Other states <br>to<br> Telangana</h4></button>
 
                 </form>
             </div>

@@ -20,8 +20,8 @@ import com.twilio.type.PhoneNumber;
 public class SuccessController {
 
 	private Map<String,MessageModel> msg_data = new HashMap<>();
-	private final static String ACCOUNT_SID = "AC83a4c97db166b1864ea7a25e233f7f80";
-	private final static String AUTH_ID = "f53b9c9a2824011d602c23600c398dfa";
+	private final static String ACCOUNT_SID = "";
+	private final static String AUTH_ID = "";
 	
 	static {
 		Twilio.init(ACCOUNT_SID,AUTH_ID);
@@ -36,7 +36,7 @@ public class SuccessController {
 //		otpsystem.setOtp(String.valueOf(((int)(Math.random()*(10000 - 1000)))+1000));
 //		otpsystem.setExpirydate(System.currentTimeMillis()+60000);
 		//msg_data.put(mobilenumber,otpsystem);	
-		Message.creator(new PhoneNumber("+917013325444"),new PhoneNumber("+12058574887"),"Pass Registration Successful. Your Application is "+aid).create();
+		Message.creator(new PhoneNumber("+917013325444"),new PhoneNumber(""),"Pass Registration Successful. Your Application is "+aid).create();
 		//return new ResponseEntity<Object>("OTP is sent successfully",HttpStatus.OK);
 		return "redirect:/";
 	}

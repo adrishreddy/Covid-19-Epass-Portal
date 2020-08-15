@@ -82,7 +82,7 @@ public class OtpGeneratorController {
 		otpsystem.setOtp(String.valueOf(((int)(Math.random()*(10000 - 1000)))+1000));
 		otpsystem.setExpirydate(System.currentTimeMillis()+60000);
 		otp_data.put(mobilenumber,otpsystem);	
-		Message.creator(new PhoneNumber(mobilenumber),new PhoneNumber("+12058574887"),"Your Otp is "+otpsystem.getOtp()).create();
+		Message.creator(new PhoneNumber(mobilenumber),new PhoneNumber(""),"Your Otp is "+otpsystem.getOtp()).create();
 		return new ResponseEntity<Object>("OTP is sent successfully",HttpStatus.OK);
 	}
 	
