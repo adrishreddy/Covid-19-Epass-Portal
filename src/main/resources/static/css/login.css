@@ -1,0 +1,52 @@
+/* #part1{
+    
+    text-align: center;
+    background-color: rgb(88, 86, 214);
+    color: antiquewhite;
+ 
+}
+.loginform{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px ;
+    
+}
+#slogan{
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(88, 86, 214);
+    margin:auto; 
+    text-align: center;
+    /* padding-right: 10px; */
+ 
+body {
+    overflow: hidden; /* Hide scrollbars */
+}
+#part1
+{
+    padding-top: 400px;
+    padding-bottom: 300px;
+    
+
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background: rgb(88, 86, 214);
+    border-right: 10px solid rgb(142, 141, 217);
+}
+#part2{
+    /* background: white; */
+    margin: auto;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 350px;
+    padding-bottom: 230.918px;
+
+    background: #d4d4ff;
+}
+#forms{
+    margin-left: 150px;
+    margin-right: 150px;
+
+}

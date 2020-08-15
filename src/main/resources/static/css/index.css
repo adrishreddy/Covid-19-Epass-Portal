@@ -1,0 +1,70 @@
+body{
+	overflow-x:hidden;
+}
+.numAnime{
+    text-align: center;
+    color:  rgb(88, 86, 214);
+    /* border:  5px solid  rgb(88, 86, 214); */
+}
+#checklist{
+    text-align: center;
+    background: rgb(142, 141, 217);
+    margin-bottom:  0px;
+}
+#checklist::first-letter{
+    text-align: center;
+    font-size: 65px;
+
+}
+
+#goldenrules{
+    text-align: center;
+    padding-top: 50px;
+}
+#goldenrules::first-letter{
+    font-size: 65px;
+
+}
+#reachus{
+    text-align: center;
+    background: rgb(142, 141, 217);
+    margin-bottom: 0px;
+}
+#reachus::first-letter{
+    font-size: 65px;
+
+}
+/* ------------------------------------- */
+#preventions{
+    border-left: 30px solid rgb(142, 141, 217);
+    border-right: 30px solid rgb(142, 141, 217);
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.navbar {
+    background-repeat: no-repeat;
+    background: rgb(88, 86, 214);
+    border-bottom: 5px solid rgb(142, 141, 217);
+    
+  }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 23px;
+}
+.nav-item{
+   padding-left: 10px;
+   padding-right: 10px;
+} 
+#slogan{
+    font-family: 'Bangers', cursive;
+    margin:auto; 
+    text-align: center;
+    /* padding-right: 10px; */
+ 
+}
+.logo{
+font-family: 'Bebas Neue', cursive; 
+font-size: 25px;
+}

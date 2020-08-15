@@ -1,0 +1,48 @@
+.navbar {
+    background-repeat: no-repeat;
+    background: rgb(88, 86, 214);
+    padding-bottom: 25px;
+    padding-top: 25px;
+    
+  }
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 23px;
+}
+.nav-item{
+   padding-left: 10px;
+   padding-right: 10px;
+} 
+.logo{
+font-family: 'Bebas Neue', cursive; 
+font-size: 30px;
+}
+#appid,#mobile{
+    text-align: center;
+  
+  }
+#mobile:focus {
+    border: 3px solid rgb(142, 141, 217);
+    
+}
+#appid:focus {
+    border: 3px solid rgb(142, 141, 217);
+    
+}
+.head{
+	background: rgb(88, 86, 214);
+}
+.card{
+    
+   display: inline-block;
+  margin: 0 23px;
+  margin-top: -175px;
+  }
+  .getdetails{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  #know::first-letter{
+    font-size: 40px;
+  }
+  
